@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>RKHTTP</title>
+
+    <!-- Favicon -->
+    <!-- <link rel="icon" href="./img/core-img/favicon.png"> -->
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body style=" background-color: #2d3436;
+background-image: linear-gradient(315deg, #111 0%, #000000 74%);">
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- /Preloader -->
+
+    <!-- Top Search Form Area -->
+    <div class="top-search-area">
+        <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <!-- Close -->
+                        <button type="button" class="btn close-btn" data-dismiss="modal"><i class="ti-close"></i></button>
+                        <!-- Form -->
+                        <form action="index.html" method="post">
+                            <input type="search" name="top-search-bar" class="form-control" placeholder="Search and hit enter...">
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Area Start -->
+    <header class="header-area">
+        <!-- Main Header Start -->
+        <div class="main-header-area">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Classy Menu -->
+                    <nav class="classy-navbar justify-content-between" id="alimeNav">
+
+                        <!-- Logo -->
+                        <div style="display: flex;">
+                        <div>
+                        <a class="nav-brand" href="./index.html"><img src="./img/bg-img/logo.png" style="height: 78px;width: 92px;" alt=""> </a>
+                        </div>
+                        <div>
+                            <h1 class="natural">Natural Transformation</h1>
+                        </div>
+                    </div>
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+                            <!-- Menu Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul id="nav">
+                                    <li class="active"><a href="./index.html">Home</a></li>
+                                    <!-- <li><a href="#">Pages</a>
+                                        <ul class="dropdown">
+                                            <li><a href="./index.html">- Home</a></li>
+                                            <li><a href="./about.html">- About</a></li>
+                                            <li><a href="./gallery.html">- Gallery</a></li>
+                                            <li><a href="./blog.html">- Blog</a></li>
+                                            <li><a href="./single-blog.html">- Blog Details</a></li>
+                                            <li><a href="./contact.html">- Contact</a></li>
+                                            <li><a href="#">- Dropdown</a>
+                                                <ul class="dropdown">
+                                                    <li><a href="#">- Dropdown Item</a></li>
+                                                    <li><a href="#">- Dropdown Item</a></li>
+                                                    <li><a href="#">- Dropdown Item</a></li>
+                                                    <li><a href="#">- Dropdown Item</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li> -->
+                                    <li><a href="./about.html">About</a></li>
+                                    <li><a href="./bio.html">Bio</a></li>
+                                    <!-- <li><a href="./blog.html">News</a></li> -->
+                                    <li><a href="./contact.html">Contact</a></li>
+                                </ul>
+
+                                <!-- Search Icon -->
+                                <!-- <div class="search-icon" data-toggle="modal" data-target="#searchModal"><i class="ti-search"></i></div> -->
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End -->
+
+    <!-- Welcome Area Start -->
+    <section class="welcome-area">
+        <div class="welcome-slides owl-carousel">
+            <!-- Single Slide -->
+            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/banner.jpeg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <!-- Welcome Text -->
+                        <div class="col-12 col-lg-8 col-xl-6">
+                            <div class="welcome-text">
+                                <!-- <h2 data-animation="bounceInDown" data-delay="900ms">Hello <br>I'm Jackson</h2> -->
+                                <!-- <p data-animation="bounceInDown" data-delay="500ms">I photograph very instinctively. I see how it is taken like that. I do not follow certain styles, philosophies or teachers.</p> -->
+                                <div class="hero-btn-group" data-animation="bounceInDown" data-delay="100ms">
+                                    <!-- <a href="#" class="btn alime-btn mb-3 mb-sm-0 mr-4">Get a Quote</a> -->
+                                    <!-- <a class="hero-mail-contact" href="mailto:hello.alime@gmail.com">hello.alime@gmail.com</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/Ratheesh\ Transformation5.jpeg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <!-- Welcome Text -->
+                        <div class="col-12 col-lg-8 col-xl-6">
+                            <div class="welcome-text">
+                                <!-- <h2 data-animation="bounceInDown" data-delay="900ms">Hello <br>I'm Jackson</h2> -->
+                                <!-- <p data-animation="bounceInDown" data-delay="500ms">I photograph very instinctively. I see how it is taken like that. I do not follow certain styles, philosophies or teachers.</p> -->
+                                <div class="hero-btn-group" data-animation="bounceInDown" data-delay="100ms">
+                                    <!-- <a href="#" class="btn alime-btn mb-3 mb-sm-0 mr-4">Get a Quote</a> -->
+                                    <!-- <a class="hero-mail-contact" href="mailto:hello.alime@gmail.com">hello.alime@gmail.com</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single Slide -->
+            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/Vishnu\ transformation7.jpeg">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <!-- Welcome Text -->
+                        <div class="col-12 col-lg-8 col-xl-6">
+                            <div class="welcome-text">
+                                <!-- <h2 data-animation="bounceInUp" data-delay="100ms">Hello <br>I'm Alime</h2> -->
+                                <!-- <p data-animation="bounceInUp" data-delay="500ms">I photograph very instinctively. I see how it is taken like that. I do not follow certain styles, philosophies or teachers.</p> -->
+                                <div class="hero-btn-group" data-animation="bounceInUp" data-delay="900ms">
+                                    <!-- <a href="#" class="btn alime-btn mb-3 mb-sm-0 mr-4">Get a Quote</a> -->
+                                    <!-- <a class="hero-mail-contact" href="mailto:hello.alime@gmail.com">hello.alime@gmail.com</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Welcome Area End -->
+   <style>
+       p{
+          color:#ffb400;
+         
+       }
+   </style>
+   
+
+
+    <div class="story" >
+        <div class="container mt-4">
+            <div class="row mt-4">
+                <div class="col-lg-12 mt-4">
+               <center> <p>"Bodybuilding is science. How do muscles grow? Science. How do I increase strength? Science. How do I strip body fat? Science. Get the science right @RKHTTP"</p>  </center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    
+    <!-- About Us Area Start -->
+    <div class="about-us-area section-padding-80-0 clearfix">
+        <div class="container">
+            <div class="row align-items-center">
+                
+                <div class="col-12 col-lg-9">
+                    <!-- <h3 style="color: white;">About Us</h3> -->
+                    <div class="about-us-content mb-80">
+                        <!-- <h3 class="wow fadeInUp" data-wow-delay="100ms" style="color: white;">We Live For Passion</h3> -->
+                        <div class="line wow fadeInUp" data-wow-delay="200ms"></div>
+                        <p4 class="wow fadeInUp" data-wow-delay="300ms" style="color: #ffb400;">"അവരവർ,ആരോഗ്യത്തോടിരിക്കുകയാണ് ആദ്യത്തെ സാമൂഹികസേവനം. മറ്റുള്ളവരെ സഹായിക്കണമെങ്കിലും നമ്മൾ ആരോഗ്യമുള്ളവരായിരിക്കണം. അനാരോഗ്യമുള്ള ഒരാൾ മറ്റുള്ളവർക് ഭാരമായിമാറും, അതിനാൽ ആരോഗ്യം പരിരക്ഷിക്കുകയാണ് നമ്മുടെ ഒന്നാമത്തെ പ്രവർത്തി അതുതന്നെയാണ് സേവനവും. RKHTTP ട്രാൻസ്‌ഫോർമേഷനെ കുറിച്ചു -മൈത്രേയൻ "<br><br>"Self preservation of health is the foremost social service. 
+                            Even to help your fellowbeing in needy times, remaining being healthy is mandatory.
+                            As unhealthy individuals might turn out to be a burden for nearones. Maintaining your own health should be your topmost priority, and it would eventually turnout to be a service  for others too. Verdict on 'RKHTTP' by <span style="font-weight: 800;"> Maitreya Maitreyan" </span></p4><br><br>
+
+                        <!-- <center> <h3 style="font-size: large;color: skyblue;">Maitreya Maitreyan </h3></center> -->
+                        <!-- <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="https://api.whatsapp.com/send?phone=918848964489">Contact Us</a> -->
+                    </div>
+                </div>
+                
+                <div class="col-12 col-lg-3">        
+                    <div class="about-video-area mb-80 wow fadeInUp" data-wow-delay="100ms">
+                        <img src="img/bg-img/mytrayan.jpeg" alt="">
+                        <!-- <div class="video-icon">
+                            <a href="https://www.youtube.com/watch?v=sSakBz_eYzQ" class="video-play-btn"><i class="arrow_triangle-right"></i></a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Us Area End -->
+
+    
+
+
+    <!-- Blog Area Start -->
+    <div class="alime-blog-area section-padding-80-0 mb-70">
+        <div class="container">
+            <div class="row">
+
+
+                 <!-- Single Blog Area -->
+                 <div class="col-12 col-lg-8">
+                    <div class="single-post-area wow fadeInUpBig" data-wow-delay="100ms">
+                        <!-- Post Thumbnail -->
+                        <a href="#" class="post-thumbnail"><img src="img/bg-img/Ratheesh Transformation5.jpeg" alt=""></a>
+                        <!-- Post Catagory -->
+                        <!-- <a href="#" class="btn post-catagory">Photography</a> -->
+                        <!-- Post Conetent -->
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <a style="color: skyblue;" href="ratheesh.html">Model Transformation</a>
+                                <!-- <a href="#">3 Comment</a> -->
+                            </div>
+                            <a href="ratheesh.html" class="post-title">Ratheesh's disclosure on his....</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                    <!-- Single Blog Area -->
+                    <div class="col-12  col-lg-4">
+                        <div class="single-post-area wow fadeInUpBig" data-wow-delay="400ms">
+                            <!-- Post Thumbnail -->
+                            <a href="#" class="post-thumbnail"><img src="img/bg-img/america cro.jpeg"  alt=""></a>
+                            <!-- Post Catagory -->
+                            <!-- <a href="#" class="btn post-catagory">Tips</a> -->
+                            <!-- Post Conetent -->
+                            <div class="post-content">
+                                <div class="post-meta">
+                                    <a style="color: skyblue;"  href="Justin.html">Cross fitter</a>
+                                    <!-- <a href="#">3 Comment</a> -->
+                                </div>
+                                <a href="Justin.html" class="post-title">JUSTIN FROM AUSTRALIA A SOCIAL....</a>
+                            </div>
+                        </div>
+                    </div>
+                     
+
+                      <!-- Single Blog Area -->
+                <div class="col-12  col-lg-8">
+                    <div class="single-post-area wow fadeInUpBig" data-wow-delay="400ms">
+                        <!-- Post Thumbnail -->
+                        <a href="#" class="post-thumbnail"><img src="img/bg-img/Vishnu transformation7 cro.jpeg" alt=""></a>
+                        <!-- Post Catagory -->
+                        <!-- <a href="#" class="btn post-catagory">Camera</a> -->
+                        <!-- Post Conetent -->
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <a style="color: skyblue;"  href="Vishnu.html">South Indian physique Model Contender</a>
+                                <!-- <a href="#">3 Comment</a> -->
+                            </div>
+                            <a href="Vishnu.html" class="post-title">Triumphant shift from nothing to a....</a>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Single Blog Area -->
+                 <div class="col-12  col-lg-4">
+                    <div class="single-post-area wow fadeInUpBig" data-wow-delay="100ms">
+                        <!-- Post Thumbnail -->
+                        <a href="#" class="post-thumbnail"><img src="img/bg-img/amit sabu.jpeg" alt=""></a>
+                        <!-- Post Catagory -->
+                        <!-- <a href="#" class="btn post-catagory">Camera</a> -->
+                        <!-- Post Conetent -->
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <a style="color: skyblue;"  href="amit.html">Professional Chef</a>
+                                <!-- <a href="#">3 Comment</a> -->
+                            </div>
+                            <a href="amit.html" class="post-title">SHORT-TERM FITNESS TALE OF.... </a>
+                        </div>
+                    </div>
+                </div>
+               
+
+
+                  <!-- Single Blog Area -->
+                  <div class="col-12 col-lg-8">
+                    <div class="single-post-area wow fadeInUpBig" data-wow-delay="700ms">
+                        <!-- Post Thumbnail -->
+                        <a href="#" class="post-thumbnail"><img src="img/bg-img/cyc.jpeg" alt=""></a>
+                        <!-- Post Catagory -->
+                        <!-- <a href="#" class="btn post-catagory">Country</a> -->
+                        <!-- Post Conetent -->
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <a style="color: skyblue;"  href="jithin.html">Cyclist Champion</a>
+                                <!-- <a href="#">3 Comment</a> -->
+                            </div>
+                            <a href="jithin.html" class="post-title">Jithin jose Madani ....</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+
+               
+
+                <!-- Single Blog Area -->
+                <div class="col-12 col-lg-4">
+                    <div class="single-post-area wow fadeInUpBig" data-wow-delay="400ms">
+                        <!-- Post Thumbnail -->
+                        <a href="#" class="post-thumbnail"><img src="img/bg-img/turkey model cro.jpeg" alt=""></a>
+                        <!-- Post Catagory -->
+                        <!-- <a href="#" class="btn post-catagory">Tips</a> -->
+                        <!-- Post Conetent -->
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <a style="color: skyblue;" href="akhil.html">Model and electrical engineer </a>
+                                <!-- <a href="#">3 Comment</a> -->
+                            </div>
+                            <a href="akhil.html" class="post-title">RKHTTP has the Best.... </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Blog Area -->
+                <div class="col-12 col-lg-3">
+                    <div class="single-post-area wow fadeInUpBig" data-wow-delay="400ms">
+                        <!-- Post Thumbnail -->
+                        <a href="#" class="post-thumbnail"><img src="img/bg-img/martial artist.jpeg" alt=""></a>
+                        <!-- Post Catagory -->
+                        <!-- <a href="#" class="btn post-catagory">Tips</a> -->
+                        <!-- Post Conetent -->
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <a style="color: skyblue;" href="Sabu.html">Martial Artis </a>
+                                <!-- <a href="#">3 Comment</a> -->
+                            </div>
+                            <a href="Sabu.html" class="post-title">FOCUS ON THE MOST...</a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                   <!-- Single Blog Area -->
+                   <div class="col-12  col-lg-3">
+                    <div class="single-post-area wow fadeInUpBig" data-wow-delay="400ms">
+                        <!-- Post Thumbnail -->
+                        <a href="#" class="post-thumbnail"><img src="img/bg-img/b cro.jpeg" alt=""></a>
+                        <!-- Post Catagory -->
+                        <!-- <a href="#" class="btn post-catagory">Tips</a> -->
+                        <!-- Post Conetent -->
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <a style="color: skyblue;" href="Arun.html"> 5 Weeks Transformation</a>
+                                <!-- <a href="#">3 Comment</a> -->
+                            </div>
+                            <a href="Arun.html" class="post-title">AN INSPIRING JOURNEY OF ....-</a>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Single Blog Area -->
+                 <div class="col-12 col-lg-3">
+                    <div class="single-post-area wow fadeInUpBig" data-wow-delay="400ms">
+                        <!-- Post Thumbnail -->
+                        <a href="#" class="post-thumbnail"><img src="img/bg-img/nandan unni4.jpeg" alt=""></a>
+                        <!-- Post Catagory -->
+                        <!-- <a href="#" class="btn post-catagory">Tips</a> -->
+                        <!-- Post Conetent -->
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <a style="color: skyblue;" href="nandanunni.html">Actor</a>
+                                <!-- <a href="#">3 Comment</a> -->
+                            </div>
+                            <a href="nandanunni.html" class="post-title">HOW DEDICATED ACTORS CAN....</a>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Single Blog Area -->
+                 <div class="col-12  col-lg-3">
+                    <div class="single-post-area wow fadeInUpBig" data-wow-delay="400ms">
+                        <!-- Post Thumbnail -->
+                        <a href="#" class="post-thumbnail"><img src="img/bg-img/vipinnn cro.jpeg" alt=""></a>
+                        <!-- Post Catagory -->
+                        <!-- <a href="#" class="btn post-catagory">Tips</a> -->
+                        <!-- Post Conetent -->
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <a style="color: skyblue;" href="vipin.html">Mr Aleppy </a>
+                                <!-- <a href="#">3 Comment</a> -->
+                            </div>
+                            <a href="vipin.html" class="post-title">Mr ALAPPY RUNNER UP....</a>
+                        </div>
+                    </div>
+                </div>
+
+                  <!-- Single Blog Area -->
+                  <div class="col-12  col-lg-6">
+                    <div class="single-post-area wow fadeInUpBig" data-wow-delay="400ms">
+                        <!-- Post Thumbnail -->
+                        <a href="#" class="post-thumbnail"><img src="img/bg-img/WhatsApp Image 2021-06-09 at 1.50.47 PM (1).jpeg" alt=""></a>
+                        <!-- Post Catagory -->
+                        <!-- <a href="#" class="btn post-catagory">Tips</a> -->
+                        <!-- Post Conetent -->
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <a style="color: skyblue;"  href="renju.html">Model Transformation</a>
+                                <!-- <a href="#">3 Comment</a> -->
+                            </div>
+                            <a href="renju.html" class="post-title"> living my fantasy with rkhttp...</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                 <!-- Single Blog Area -->
+                 <div class="col-12  col-lg-3">
+                    <div class="single-post-area wow fadeInUpBig" data-wow-delay="400ms">
+                        <!-- Post Thumbnail -->
+                        <a href="#" class="post-thumbnail"><img src="img/bg-img/muhammed ali transfromation2 croo.jpeg" alt=""></a>
+                        <!-- Post Catagory -->
+                        <!-- <a href="#" class="btn post-catagory">Tips</a> -->
+                        <!-- Post Conetent -->
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <a style="color: skyblue;"  href="muhammedali.html">model transformation</a>
+                                <!-- <a href="#">3 Comment</a> -->
+                            </div>
+                            <a href="muhammedali.html" class="post-title"> RAHUL’S Getaway Experience From....</a>
+                        </div>
+                    </div>
+                </div>
+              
+
+                 <!-- Single Blog Area -->
+                 <div class="col-12  col-lg-3">
+                    <div class="single-post-area wow fadeInUpBig" data-wow-delay="400ms">
+                        <!-- Post Thumbnail -->
+                        <a href="#" class="post-thumbnail"><img src="img/bg-img/rahul c.jpeg" alt=""></a>
+                        <!-- Post Catagory -->
+                        <!-- <a href="#" class="btn post-catagory">Tips</a> -->
+                        <!-- Post Conetent -->
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <a style="color: skyblue;"  href="rahul.html">RKHTTP Home Workout Transformation</a>
+                                <!-- <a href="#">3 Comment</a> -->
+                            </div>
+                            <a href="rahul.html" class="post-title">living my fantasy....</a>
+                        </div>
+                    </div>
+                </div>
+              
+
+                
+              
+
+                   
+
+
+            </div>
+        </div>
+    </div>
+    <!-- Blog Area End -->
+    
+    
+   
+    
+
+    <div class="testimonial10 py-5 bg-success-gradiant">
+        <div class="container">
+          <div class="owl-carousel owl-theme text-center testi10">
+
+            
+           
+            <!-- item -->
+            <div class="item">
+              <div class="quote-bg">
+                <h3 class="font-weight-light ">"I started my fitness journey  with Rino who busted many myths  around nutrition and weight training.He played a major role on keeping me in track and started to  see my potential . Happy to be a part of his training ❤️"</h3>
+              </div>
+              <div class="customer-thumb my-3"><img src="img/bg-img/PSX_20201025_143249.jpeg" alt="wrapkit" class="rounded-circle" /></div>
+              <h6 class=" mb-0 font-weight-medium">Ajil</h6>
+              <span class="text-white">Automotive Engineer</span>
+            </div>
+            <!-- item -->
+            
+
+             <!-- item -->
+             <div class="item">
+                <div class="quote-bg">
+                  <h3 class="font-weight-light ">"Having sessions with you has given me physical results as well as nutritional awareness. The tips you given me on nutrition was miraculously helpful and the results was 110% worth it. Thank you for being a trainer and a good friend.☺️"</h3>
+                </div>
+                <div class="customer-thumb my-3"><img src="img/bg-img/vinus.jpeg" alt="wrapkit" class="rounded-circle" /></div>
+                <h6 class=" mb-0 font-weight-medium">Vinesh </h6>
+                <span class="text-white">Singer</span>
+              </div>
+              <!-- item -->
+
+              
+             <!-- item -->
+             <div class="item">
+                <div class="quote-bg">
+                  <h3 class="font-weight-light ">"When you choose to have a life with no worries, a life with peace and happiness, the inevitable role of health in your lifestyle can be entrusted with RKHTTP."  </h3>
+                </div>
+                <div class="customer-thumb my-3"><img src="img/bg-img/sibbi ram.jpeg" alt="wrapkit" class="rounded-circle" /></div>
+                <h6 class=" mb-0 font-weight-medium">SISBI RAM </h6>
+                <span class="text-white">Teacher</span>
+              </div>
+              <!-- item -->
+
+
+               <!-- item -->
+             <div class="item">
+                <div class="quote-bg">
+                  <h3 class="font-weight-light ">"RKHTTP natural body transformations don't happen overnight. They take time— hours upon hours spent training, eating well, and putting health above all else. There is no easy route rather than RKHTTP when it comes to making lifelong changes. Whether you're battling health issues, facing an uphill fat-loss battle, or you've hit a plateau on the way to your goals, these RKHTTP athletes prove that when you officially decide to change through ‘RKHTTP’ Natural transformation program, nothing can stop you.""    </h3>
+                </div>
+                <div class="customer-thumb my-3"><img src="img/bg-img/rukku.jpeg" alt="wrapkit" class="rounded-circle" /></div>
+                <h6 class=" mb-0 font-weight-medium">Rukku Natarajan </h6>
+                <span class="text-white">Commissioning Engineer</span>
+              </div>
+              <!-- item -->
+
+
+               <!-- item -->
+             <div class="item">
+                <div class="quote-bg">
+                  <h3 class="font-weight-light ">"The journey with RKHTTP was a journey of self discovery. It helped me realise my inner potential and nourish it to make myself a better individual. Personal health and the miracles it could perform in one's day to day life was an never gone through chapter in my life. Mr. Rino N, with his immense knowledge base in personal health guides and motivates the individual in creating a better version of our self through his well acclaimed RKHTTP programme. Each day under his guidance was a never before experience. Whole heartedly i would recommend this programme to any person irrespective of age and gender. After all, it is only health that turns out to be your only wealth at the end of day. Wishing Rino and his great success in future endeavours too. "</h3>
+                </div>
+                <div class="customer-thumb my-3"><img src="img/bg-img/anadakrishnan.jpeg" alt="wrapkit" class="rounded-circle" /></div>
+                <h6 class=" mb-0 font-weight-medium">Ananthakrishnan </h6>
+                <span class="text-white">Officer Bank of India </span>
+              </div>
+              <!-- item -->
+
+
+               <!-- item -->
+             <div class="item">
+                <div class="quote-bg">
+                  <h3 class="font-weight-light ">"During the rush of railway work, it was a small desire for me to lose body fat and get healthy. Thanks to my dear coach and nutritionist who trained me without seeing me in person for the last 22 days. Thank you RKHTTP"</h3>
+                </div>
+                <div class="customer-thumb my-3"><img src="img/bg-img/Kishore K.P.jpeg" alt="wrapkit" class="rounded-circle" /></div>
+                <h6 class=" mb-0 font-weight-medium">Kishore K.P </h6>
+                <span class="text-white">Railway employee.</span>
+              </div>
+              <!-- item -->
+
+              <!-- item -->
+             <div class="item">
+                <div class="quote-bg">
+                  <h3 class="font-weight-light" style="color: #ffb400;" >"All progress takes place outside the comfort zone''
+                    I can assure you, RKHTTP is not a comfort zone if you are seeking an easy way.
+                    It doesn't just transform your physique, it transforms your thoughts, behavior, mood and life."</h3>
+                </div>
+                <div class="customer-thumb my-3"><img src="img/bg-img/02544.jpeg" alt="wrapkit" class="rounded-circle" /></div>
+                <h6 class=" mb-0 font-weight-medium">Prince Sebastian G S </h6>
+                <span class="text-white">Mechanical Engineer</span>
+              </div>
+              <!-- item -->
+
+               <!-- item -->
+            <div class="item">
+                <div class="quote-bg">
+                  <h3 class="font-weight-light ">"Outstanding master of his craft; incredibly bright with a treasure trove of health and fitness knowledge; expert in weight training, warm, spontaneous personality. Rino is brimming with the brains to help anyone achieve the brawn. He’s the real deal in an industry full of wannabees and is the standard by which any trainer should be measured. Through consistent and positive feedback and encouragement he made me realised that nothing is impossible. In a short time, I gained the confidence to face the mirror with how i look. He discovered the potential that i got which was unknown to me.
+                      If you are looking for that magic secret for your transformation then he is the right person to go for."</h3>
+                </div>
+                <div class="customer-thumb my-3"><img src="img/bg-img/d.jpeg" alt="wrapkit" class="rounded-circle" /></div>
+                <h6 class=" mb-0 font-weight-medium">Anjali</h6>
+                <span class="text-white">SENIOR CSA
+                  </span>
+              </div>
+              <!-- item -->
+
+              <!-- item -->
+            <div class="item">
+                <div class="quote-bg">
+                  <h3 class="font-weight-light ">Being a medico I spend most of my day in consultation which in turn pushes me to a sedentary life.
+                    The consequence was a rapid increment in my body mass and collapsing well-being . But the thing 
+                    which worries me most is my deteriorating health and I start caught up with easy infections, frequent 
+                    muscle strains and felt insecurity about my body. This triggers me to try many diet plans (expert 
+                    directed and referral) along with home workouts. But alas!! All I found is disappointing results. At 
+                    that time I had decided to share my issue with Rino N with a firm belief that he will get me out of 
+                    this mess. And he opt me to undergo RINO’S KILLER HIT “T” TRAINING PRINCIPLES with a 
+                    pre-assured result. As my determination was strong, I strictly followed his relentless instructions even 
+                    though it was hard for me initially. The most striking factor is, he is having pure scientific explanation 
+                    for every minute nook and corner of his plan and his principles were strictly individualistic (1plan for 
+                    1 person). The result was really amazing, sustaining and healthy. I personally recommend RKHTTP if 
+                    you are in search for a trusted, safe, scientific, intense and result oriented weight-loss or body building 
+                    programme. Stick to a healthy and assured weight loss regimen and remember…..
+                     “YOU PATENTLY FETCH OUT WHAT YOU SETS IN.” </h3>
+                </div>
+                <div class="customer-thumb my-3"><img src="img/bg-img/doctor.jpeg" alt="wrapkit" class="rounded-circle" /></div>
+                <h6 class="mb-0 font-weight-medium">Dr susira</h6>
+                <span class="text-white">Doctor 
+              </span>
+              </div>
+              <!-- item -->
+
+              
+              <!-- item -->
+             <!-- <div class="item">
+                <div class="quote-bg">
+                  <h3 class="font-weight-light text-white">''All progress takes place outside the comfort zone''
+                    I can assure you, RKHTTP is not a comfort zone if you are seeking an easy way.
+                    It doesn't just transform your physique, it transforms your thoughts, behavior, mood and life.</h3>
+                </div>
+                <div class="customer-thumb my-3"><img src="img/bg-img/02544.jpeg" alt="wrapkit" class="rounded-circle" /></div>
+                <h6 class="text-white mb-0 font-weight-medium">Prince Sebastian G S </h6>
+                <span class="text-white">Mechanical Engineer</span>
+              </div> -->
+              <!-- item -->
+          </div>
+        </div>
+      </div>
+
+
+
+    <div class="disclaimer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                  <!-- <center>  <p style="color: #ffb400;font-size: large;">Disclaimer</p>  </center> -->
+                  <center>  <p4 style="color: #E93812;font-size: small;"> <span style="color: #ffb400;font-size: large;">Disclaimer:</span> Consult with a physician prior to beginning any exercise or exercise program, including RKHTTP. When undertaking any exercise activity, there is a risk of injury. You should be healthy and familiar with the proper form, techniques, and preparation for the exercises you undertake and the equipment you use. Always use safe techniques and protective equipment when engaging in exercise. If you are unfamiliar with the proper and safe techniques and equipment for the exercises you intend to perform, please seek advice and assistance from RINO.N before performing them. If you are in poor health or are handicapped, ask for the opinion of your physician or health care provider, and exercise only under qualified supervision. Discontinue exercising if you experience any light headaches, dizziness, shortness of breath, or discomfort, and consult your physician or other health care provider.</p4> </center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+    <!-- Footer Area Start -->
+    <footer class="footer-area mt-4" style="background-color:black">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-content d-flex align-items-center justify-content-between">
+                        <!-- Copywrite Text -->
+                        <div class="copywrite-text">
+                            <div class="col-lg-12">
+                                <!-- <p>Disclaimer</p>
+                                <p4 style="color: #ffb400;">Consult with a physician prior to beginning any exercise or exercise program, including RKHTTP. When undertaking any exercise activity, there is a risk of injury. You should be healthy and familiar with the proper form, techniques, and preparation for the exercises you undertake and the equipment you use. Always use safe techniques and protective equipment when engaging in exercise. If you are unfamiliar with the proper and safe techniques and equipment for the exercises you intend to perform, please seek advice and assistance from RINO.N before performing them. If you are in poor health or are handicapped, ask for the opinion of your physician or health care provider, and exercise only under qualified supervision. Discontinue exercising if you experience any light headaches, dizziness, shortness of breath, or discomfort, and consult your physician or other health care provider.</p4> -->
+                            </div>
+                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved RKHTTP<i class="fa fa-heart-o" aria-hidden="true"></i>  
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                        </div>
+                        <!-- Footer Logo -->
+                        <!-- <div class="footer-logo">
+                            <a href="#"><img src="img/core-img/logo2.png" alt=""></a>
+                        </div> -->
+                        <!-- Social Info -->
+                        <div class="social-info">
+                            <a href="https://www.facebook.com/RKHTTP/"><i class="ti-facebook" aria-hidden="true"></i></a>
+                            <a href="https://www.youtube.com/channel/UCvLf2ILfMILGrGAI1SG9Nnw?app=desktop"><i class="ti-youtube" aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/rino.n.palode/"><i class="ti-instagram" aria-hidden="true"></i></a>
+                            <!-- <a href="#"><i class="ti-pinterest" aria-hidden="true"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Area End -->
+
+    <!-- **** All JS Files ***** -->
+    <!-- jQuery 2.2.4 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Popper -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins -->
+    <script src="js/alime.bundle.js"></script>
+    <!-- Active -->
+    <script src="js/default-assets/active.js"></script>
+
+</body>
+
+</html>
+
+
+<style>
+  @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500,700);
+.testimonial10 {
+  font-family: "Montserrat", sans-serif;
+  /* color: #8d97ad; */
+  color: #ffb400;
+  font-weight: 300;
+}
+
+.testimonial10 h1,
+.testimonial10 h2,
+.testimonial10 h3,
+.testimonial10 h4,
+.testimonial10 h5,
+.testimonial10 h6 {
+  color: #3e4555;
+
+}
+.item h3  {
+    color: #ffb400;
+}
+.item h6{
+    color: skyblue;
+}
+
+.testimonial10 .font-weight-medium {
+  font-weight: 500;
+}
+
+.testimonial10 .subtitle {
+    color: #ffb400;
+  line-height: 24px;
+}
+
+.testimonial10 .testi10 .quote-bg {
+  /* max-width: 800px; */
+  width: 100%;
+  margin: 0 auto;
+  padding: 21px;
+  /* background: url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/testimonial/up-quote.png) no-repeat top left, url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/testimonial/down-quote.png) no-repeat bottom right; */
+}
+
+.testimonial10 .testi10 h3 {
+  line-height: 28px;
+	font-size: 16px;
+}
+
+.testimonial10 .testi10 .customer-thumb img {
+  width: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* 
+@media (max-width: 767px) {
+  .testimonial10 .testi10 h3 {
+    line-height: 30px;
+    font-size: 20px;
+  }
+} */
+
+.testimonial10.bg-success-gradiant {
+    /* background: #2cdd9b; */
+    /* background: -webkit-linear-gradient(legacy-direction(to right), #2cdd9b 0%, #1dc8cc 100%); */
+    /* background: -webkit-gradient(linear, left top, right top, from(#2cdd9b), to(#1dc8cc)); */
+    /* background: -webkit-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%); */
+    /* background: -o-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%); */
+    /* background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%); */
+}
+</style>
+
+<script>
+ $('.testi10').owlCarousel({
+  loop: true,
+  margin: 30,
+  nav: false,
+  dots: false,
+  autoplay: true,
+  responsiveClass: true,
+  responsive: {
+    0: {
+      items: 1
+
+    },
+    1650: {
+      items: 1
+    }
+  }
+})
+</script>
